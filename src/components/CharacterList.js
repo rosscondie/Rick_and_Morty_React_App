@@ -7,7 +7,7 @@ function CharacterList({ characters }) {
     })
     return (
         <>
-        <h3>Character List</h3>
+        <h3>Characters</h3>
         <ul>
             {characterNodes}
         </ul>
