@@ -8,9 +8,9 @@ function CharacterList({ characters }) {
     return (
         <>
         <h3>Characters</h3>
-        <ul>
+        <main>
             {characterNodes}
-        </ul>
+        </main>
         </>
     )
 }
