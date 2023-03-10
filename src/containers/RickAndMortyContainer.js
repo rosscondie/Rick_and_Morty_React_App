@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "../components/Header";
+
 
 function RickAndMortyContainer() {
     return (
-        <h2>Hello</h2>
+        <>
+        <Header />
+        </>
     )
 }
 
