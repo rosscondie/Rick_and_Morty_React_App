@@ -1,14 +1,21 @@
 import React from "react";
+import "./Character.css"
 
 function Character({ character }) {
     return (
-        <details>
-            <summary>{character.name}</summary>
+        <div className="character">
+        <article>
+            <h3>{character.name}</h3>
+            <article className="character-details">
             <img src={character.image} alt="characters face"/>
-            <p>{character.status}</p>
-            <p>{character.species}</p>
-            <p>{character.location.name}</p>
-        </details>
+            <aside>
+            <p><b>Status:</b> {character.status}</p>
+            <p><b>Species:</b> {character.species}</p>
+            <p><b>Location:</b> {character.location.name}</p>
+            </aside>
+            </article>
+        </article>
+        </div>
     )
 }
 

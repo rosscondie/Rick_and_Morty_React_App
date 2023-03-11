@@ -2,6 +2,8 @@ import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
 import CharacterList from "../components/CharacterList";
 import Button from "../components/Button";
+import "./RickAndMortyContainer.css"
+
 
 
 function RickAndMortyContainer() {
@@ -23,7 +25,7 @@ function RickAndMortyContainer() {
 
 
     return (
-        <>
+        <div className="character-container">
             <Header />
             <CharacterList characters={characters} />
             <Button 
@@ -33,7 +35,7 @@ function RickAndMortyContainer() {
             <Button
             text=">>"
             clickHandler={() => {fetchCharacters(next)}} />
-        </>
+        </div>
     )
 }
 
