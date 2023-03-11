@@ -1,6 +1,17 @@
 .character {
-    background-color: lightgray;
+    background-color: rgba(236, 240, 241, 0.7);
     padding: 1.5rem;
     border: solid 2px black;
+    border-radius: 25px;
 }
 
+.character h3 {
+    font-family: 'Creepster';
+    font-size: 2rem;
+    color:chartreuse;
+    -webkit-text-stroke: .6px black;
+}
+
+.portrait {
+    border-radius: 50%;
+}
