@@ -8,7 +8,7 @@ function CharacterList({ characters }) {
     })
     return (
         <section>
-        <h3>Characters</h3>
+        <h3 className="character-header">Characters</h3>
         <main>
             {characterNodes}
         </main>

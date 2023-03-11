@@ -4,3 +4,11 @@ main {
     gap: 1em;
     padding: 2rem;
 }
+
+.character-header {
+    -webkit-text-stroke: 2px blueviolet;
+    font-family: 'Creepster', cursive;
+    color: aquamarine;
+    font-size: 3rem;
+    margin: 0;
+}
