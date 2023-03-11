@@ -2,7 +2,8 @@ import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
 import CharacterList from "../components/CharacterList";
 import Button from "../components/Button";
-import "./RickAndMortyContainer.css"
+import "./RickAndMortyContainer.css"; 
+import "../App.css";
 
 
 
