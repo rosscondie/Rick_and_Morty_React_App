@@ -30,11 +30,11 @@ function RickAndMortyContainer() {
             <Header />
             <CharacterList characters={characters} />
             <Button 
-            text="<<  Previous Character"
+            text="<<  Previous"
             clickHandler={() => {fetchCharacters(previous)}}
             />
             <Button
-            text="Next Character  >>"
+            text="Next  >>"
             clickHandler={() => {fetchCharacters(next)}} />
         </div>
     )

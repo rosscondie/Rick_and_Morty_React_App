@@ -15,3 +15,7 @@
 .portrait {
     border-radius: 50%;
 }
+
+.character-status {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

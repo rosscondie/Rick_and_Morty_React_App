@@ -8,7 +8,7 @@ function Character({ character }) {
             <h3>{character.name}</h3>
             <article className="character-details">
             <img className="portrait" src={character.image} alt="characters face"/>
-            <aside>
+            <aside className="character-status">
             <p><b>Status:</b> {character.status}</p>
             <p><b>Species:</b> {character.species}</p>
             <p><b>Location:</b> {character.location.name}</p>

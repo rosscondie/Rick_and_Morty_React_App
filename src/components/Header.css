@@ -1,4 +1,8 @@
-img {
-    margin-top: 1rem;
-    height: 8rem;
+.header-image {
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+.logo {
+    height: 12rem;
 }
