@@ -10,7 +10,9 @@ function Header() {
            alt="header logo" 
            />
         </aside>
+        <aside>
             <img className="logo" src={require('../components/logo.png')} alt="rick and morty vortex" />
+        </aside>
        </div>
         
     )
